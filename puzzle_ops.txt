@@ -1,0 +1,8 @@
+(operator
+move
+(params
+(<a1> Object) (<a2> Object) (<number> Object))
+(preconds
+(adjacent <a1> <a2>) (clear <a2>) (on <number> <a1>))
+(effects
+(on <number> <a2>) (clear <a1>) (del on <number> <a1>) (del clear <a2>)))
